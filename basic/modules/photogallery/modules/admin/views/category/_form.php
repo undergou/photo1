@@ -15,7 +15,7 @@ use yii\bootstrap\ActiveForm;
         'layout' => 'default'
     ]); ?>
 
-    <?= $form->field($model, 'title', ['inputOptions' => ['id' => 'categouytrtyhry-title']])->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'title', ['inputOptions' => ['id' => 'category-title']])->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'slug', ['inputOptions' => ['id' => 'category-slug']])->textInput(['maxlength' => true]) ?>
 
